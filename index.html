@@ -173,7 +173,7 @@
        <div class="col-md-4">       
 <div class="panel panel-danger">
       <div class="panel-heading">Panel with panel-danger class</div>
-      <div class="panel-body"><img src="imagestip1.jpg" class="img-rounded img-responsive" alt="Nick Curlett"></div>
+      <div class="panel-body"><img src="images/tip1.jpg" class="img-rounded img-responsive" alt="Nick Curlett"></div>
     <p></p>
     </div>
      </div>       
@@ -181,6 +181,16 @@
 <div class="panel panel-danger">
       <div class="panel-heading">Panel with panel-danger class</div>
       <div class="panel-body"><img src="images/open.png" class="img-rounded img-responsive" alt="Nick Curlett"></div>
+  <script>
+    var img = document.getElementById('blinking_image');
+var interval = window.setInterval(function(){
+    if(img.style.visibility == 'hidden'){
+        img.style.visibility = 'visible';
+    }else{
+        img.style.visibility = 'hidden';
+    }
+}, 1000); //the 1000 here is milliseconds and determines how often the interval should be run.
+    </script>
     <p></p>
     </div>       
     </div>
