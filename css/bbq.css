@@ -30,3 +30,9 @@ background-color:#ff1f55;
     color:#000;
 }
 
+.panel-heading > .panel-body{
+ text-align:center;
+ text-shadow: 2px 2px #000;
+ font-weight:bolder;
+}
+
