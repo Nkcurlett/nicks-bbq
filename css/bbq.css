@@ -5,14 +5,14 @@
   }
 
 .navbar-fixed-top .nav {
-    padding: 15px 0;
+    padding: 7px 0;
 }
 /*changed the background color*/
 .navbar-inverse{
-background-color:#069;
+background-color:#ff1f55;
 }
 .btn{
-    background-color:#069;
+    background-color:#ff1f55;
     color:#fff;
 }
 .navbar-inverse  .navbar-nav > li > a{
@@ -27,6 +27,6 @@ background-color:#069;
 
 .navbar-inverse  .navbar-nav > li > a:hover{
     background-color:#f00;
-    color:#069;
+    color:#ff1f55;
 }
 
