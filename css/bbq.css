@@ -4,6 +4,29 @@
       margin: auto;
   }
 
-.navbar-inverse{
-    background-color: #B45F04;
+.navbar-fixed-top .nav {
+    padding: 15px 0;
 }
+/*changed the background color*/
+.navbar-inverse{
+background-color:#069;
+}
+.btn{
+    background-color:#069;
+    color:#fff;
+}
+.navbar-inverse  .navbar-nav > li > a{
+    color:#fff;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a {
+  color: #fff;
+  background-color: #f00;
+}
+
+.navbar-inverse  .navbar-nav > li > a:hover{
+    background-color:#f00;
+    color:#069;
+}
+
