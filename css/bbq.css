@@ -2,6 +2,11 @@
  height:100%;
 }
 
+hr{
+ height:2px;
+ background-color:#000;
+}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 85%;
