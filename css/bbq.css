@@ -1,7 +1,13 @@
- .carousel-inner > .item > img,
+.jumbotron{
+ height:85%;
+}
+
+.carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 85%;
       margin: auto;
+   color:#fff;
+   text-shadow:2px 2px #000;
   }
 
 .navbar-fixed-top .nav {
