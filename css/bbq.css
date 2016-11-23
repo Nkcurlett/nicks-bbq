@@ -24,8 +24,7 @@ hr{
 /*changed the background color*/
 .navbar-inverse{
 background-color:#ff1f55;
-  background-image:url(images/fire.jpg);
-  background-repeat:repeat-x;
+ 
 }
 .btn{
     background-color:#ff1f55;
