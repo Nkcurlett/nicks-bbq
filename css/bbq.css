@@ -19,13 +19,14 @@ hr{
   }
 
 .navbar-fixed-top .nav {
-    padding: 0px;
+  padding: 0px;
+  background-image:url(images/fire.jpg);
+  background-repeat:repeat-x;
 }
 /*changed the background color*/
 .navbar-inverse{
-background-color:#ff1f55;
-  background-image:url(images/fire.jpg);
-  background-repeat:repeat-x;
+  background-color:#ff1f55;
+  
 }
 .btn{
     background-color:#ff1f55;
