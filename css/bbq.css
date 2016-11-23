@@ -1,4 +1,5 @@
 .jumbotron{
+ padding:5px;
  height:100%;
 }
 
@@ -42,6 +43,7 @@ background-color:#ff1f55;
 }
 
 .panel-heading > .panel-body{
+ color:#f00;
  text-align:center;
  text-shadow: 2px 2px #000;
  font-weight:bolder;
