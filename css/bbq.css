@@ -1,7 +1,6 @@
 .jumbotron{
  padding:5px;
- height:100%;
-}
+ }
 
 hr{
  height:2px;
@@ -12,12 +11,11 @@ hr{
   .carousel-inner > .item > a > img {
       width: 85%;
       margin: auto;
-   color:#fff;
-   text-shadow:2px 2px #000;
+ 
   }
 
 .navbar-fixed-top .nav {
-    padding: 7px 0;
+    padding: 3px 0;
 }
 /*changed the background color*/
 .navbar-inverse{
@@ -31,6 +29,11 @@ background-color:#ff1f55;
     color:#fff;
 }
 
+.favorite{
+   color:#fff;
+   text-shadow:2px 2px #000;
+   font-weight:bold;
+}
 
 .navbar-inverse .navbar-nav > .active > a {
   color: #fff;
@@ -42,7 +45,7 @@ background-color:#ff1f55;
     color:#000;
 }
 
-.panel-heading > .panel-body{
+.panel-heading{
  color:#f00;
  text-align:center;
  text-shadow: 2px 2px #000;
